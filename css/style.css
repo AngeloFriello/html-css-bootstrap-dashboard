@@ -1,37 +1,61 @@
-
 /* APP */
+
 
 .app{
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-app{
+    display: flex;
+    flex-grow: 1;
 }
 
 
 /* REGOLE DI RESET */
 
-ul,li{
+
+ul, li, a{
     list-style: none;
     text-decoration: none;
+    color: currentColor;
+}
+
+input{
+    border: none;
 }
 
 
 /* COMPONENTI PRINCIPALE */
 
-.main-content{
-   background-color: red;
-}
 
 nav{
     background-color: var(--lightlightgray);
-    min-height: 80px
+    min-height: 70px
 }
 
 aside{
-    max-width: 100px;
-    height: 100%;
+    min-width: 150px;
+    background-image:url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-color: #0F263C;
 }
 
 /* UTILITY */
+
+.box-icon{
+    width: 30px;
+}
+
+.c-white{
+    color: white;
+}
+
+.c-lightgray{
+    color:lightgray
+}
 
 .bc-white{
     background-color: white;
@@ -51,4 +75,12 @@ aside{
 
 .container-fluid .row{
     width: 100%;
+}
+
+/* ASIDE */
+
+.search-bar{
+    background-color: lightgray;
+    flex-grow: 1;
+    border-radius: 5px;
 }
