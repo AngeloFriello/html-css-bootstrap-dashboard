@@ -11,6 +11,7 @@
 .main-app{
     display: flex;
     flex-grow: 1;
+    overflow: hidden;
 }
 
 :root{
@@ -27,6 +28,9 @@
 
 /* REGOLE DI RESET */
 
+img{
+    max-width: 100%;
+}
 
 ul, li, a{
     list-style: none;
@@ -127,6 +131,8 @@ aside{
 
 .main-content{
     width: 100%;
+    overflow: auto;
+    display: flex;
 }
 
 .add-student{
@@ -135,8 +141,11 @@ aside{
     padding: 20px;
 }
 
-tr{
+tr, .b-line{
     border-bottom: 1px solid lightgray;
+    margin-left: -15px;
+    margin-right: -15px;
+    
 }
 
 .card{
@@ -154,3 +163,7 @@ table{
     margin: 20px;
 }
 
+.card-body{
+    border: 1px solid lightgray;
+    
+}
