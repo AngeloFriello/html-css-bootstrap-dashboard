@@ -43,6 +43,7 @@ ul, li, a{
 input{
     border: none;
     outline: none;
+    min-width: 30px;
 }
 
 .logo-mobile{
@@ -87,6 +88,8 @@ aside{
 .grandezza-offcanvas{
     --bs-offcanvas-width: 30vw;
 }
+
+
 
 .c-white{
     color: white;
@@ -183,4 +186,35 @@ table{
     border: 1px solid lightgray;
     border-radius: 5px;
     padding: 5px;
+}
+
+
+@media (max-width:2800px){
+    .grandezza-offcanvas{
+        --bs-offcanvas-width: 40vw;
+    }
+}
+
+@media (max-width:2000px){
+    .grandezza-offcanvas{
+        --bs-offcanvas-width: 50vw;
+    }
+}
+
+@media (max-width:1600px){
+    .grandezza-offcanvas{
+        --bs-offcanvas-width: 60vw;
+    }
+}
+
+@media (max-width:1300px){
+    .grandezza-offcanvas{
+        --bs-offcanvas-width: 80vw;
+    }
+}
+
+@media (max-width:1000px){
+    .grandezza-offcanvas{
+        --bs-offcanvas-width: 100vw;
+    }
 }
