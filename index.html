@@ -82,7 +82,7 @@
             <div class="container-fluid">
                 <div class="row d-flex flex-wrap c-white">
 
-                    <!-- SEZIONE ADD NEW STUDENT -->
+        <!-- SEZIONE ADD NEW STUDENT -->
 
                     <div class="col-12 d-flex flex-wrap row-gap-5 add-student">
 
@@ -90,7 +90,122 @@
 
                         <div class="col-md-2 col-12 d-flex order-lg-3">
                             <h5>Nuovo Studente</h5>
-                            <i class="fa-regular fa-square-plus fs-1 px-3 fw-normal"></i>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                <i class="fa-regular fa-square-plus fs-1 px-3 fw-normal"></i>
+                              </a>
+                              
+                              <div class="offcanvas offcanvas-start grandezza-offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                  
+                                  <div class="container">
+                                    <div class="row">
+
+
+                                        <div class="col-12">
+                                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                        </div>
+
+
+                                        <div class="col-6">
+                                            <div>
+                                                <p class="py-2 my-0">Name</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="text" placeholder="name" class="input-square flex-grow-1">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div>
+                                                <p class="py-2 my-0">Cognome</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="text" placeholder="Cognome" class="input-square flex-grow-1">
+                                            </div>  
+                                        </div>
+
+
+                                        <div class="col-6">
+                                            <div>
+                                                <p class="py-2 my-0">Email</p>
+                                            </div>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div>
+                                                <p class="py-2 my-0">Password</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="password" placeholder="Password" class="input-square flex-grow-1">
+                                            </div>  
+                                        </div>
+
+
+                                        <div class="col-12">
+                                            <div>
+                                                <p class="py-2 my-0">Indirizzo</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="text" placeholder="Indirizzo" class="input-square flex-grow-1">
+                                            </div>  
+                                        </div>
+
+
+                                        <div class="col-6">
+                                            <div>
+                                                <p class="py-2 my-0">Citta</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="text" placeholder="Citta" class="input-square flex-grow-1">
+                                            </div> 
+                                        </div>
+                                        <div class="col-3">
+                                            <div>
+                                                <p class="py-2 my-0">Stato</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="text" placeholder="Stato" class="input-square flex-grow-0">
+                                            </div> 
+                                        </div>
+                                        <div class="col-2">
+                                            <div>
+                                                <p class="py-2 my-0">CAP</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <input type="number" placeholder="Ex:81013" class="input-square flex-grow-1">
+                                            </div> 
+                                        </div>
+
+
+                                        <div class="col-12">
+                                            <p class="py-2 my-0">Foto</p>
+                                            <div class="input-group mb-3">
+                                                <input type="file" class="form-control" id="inputGroupFile02">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-12">
+                                            <p><input type="checkbox" class="me-3">Seleziona per proseguire</p>
+
+                                        </div>
+
+
+                                        <div class="col-12">
+                                            <button class="btn btn-primary">Salva</button>
+                                            <button class="btn btn-warning">Svuota</button>
+                                        </div>
+                                    </div>                                    
+                                  </div>
+                                </div>
+                                <div class="offcanvas-body">
+                                  
+                        
+                                </div>
+                              </div>
+                            
                         </div>
 
                     <!-- SECONDA COL -->
@@ -108,7 +223,7 @@
                             <i class="fa-solid fa-circle-plus d-md-none c-white fs-4"></i>
                         </div>
 
-                        <!-- TERZA COL -->
+                    <!-- TERZA COL -->
 
                         <div class="col-12 col-md-4 order-lg-2">
                             <p class="fs-4">Studenti online negli ultimi 30 minuti</p>
