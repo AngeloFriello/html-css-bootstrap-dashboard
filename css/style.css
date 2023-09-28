@@ -45,7 +45,12 @@ input{
     padding: 0px;
 }
 
-
+button{
+    text-decoration: none;
+    border-style: none;
+    padding: 0px;
+    color: currentColor;
+}
 
 /* COMPONENTI PRINCIPALE */
 
@@ -84,6 +89,15 @@ aside{
     background-color: gray;
 }
 
+/* BUTTON CUSTOM */
+
+.button-filter{
+    background-color: #165BBA;
+    padding:0px 10px;
+    border-radius: 30px;
+    color: white;
+    margin: 8px 0;
+}
 
 /* NAV */
 
@@ -101,7 +115,8 @@ aside{
 }
 
 .add-student{
-    background-color: blue;
+    background-color: #1B72E8;
     min-height: 130px;
+    padding: 20px;
     
 }
