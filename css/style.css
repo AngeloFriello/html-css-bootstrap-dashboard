@@ -45,6 +45,10 @@ input{
     padding: 0px;
 }
 
+.logo-tabella{
+    max-width: 40px;
+}
+
 button{
     text-decoration: none;
     border-style: none;
@@ -54,7 +58,9 @@ button{
 
 table{
     color: currentColor;
+    table-layout: none;
 }
+
 /* COMPONENTI PRINCIPALE */
 
 
@@ -90,6 +96,13 @@ aside{
     background-color: gray;
 }
 
+.icon-square{
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
 /* BUTTON CUSTOM */
 
 .button-filter{
@@ -99,6 +112,7 @@ aside{
     color: white;
     margin: 8px 0;
 }
+
 
 /* NAV */
 
@@ -119,5 +133,24 @@ aside{
     background-color: #1B72E8;
     min-height: 130px;
     padding: 20px;
-    
 }
+
+tr{
+    border-bottom: 1px solid lightgray;
+}
+
+.card{
+    margin: 30px
+}
+
+.title-card {
+    background-color:#F7F7F7;
+    padding: 20px;
+    border-bottom:1px solid lightgray ;
+    margin: 0px;
+}
+
+table{
+    margin: 20px;
+}
+
