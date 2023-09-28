@@ -18,21 +18,22 @@
         <nav class="container-fluid py-1 d-flex align-items-center">
             <div class="row bc-white py-1 d-flex">
                 <div class="col-auto ">
-                    <img src="./img/logo.svg" alt="" class="d-none">
+                    <img src="./img/mobile-logo.png" alt="" class="d-md-none logo-mobile">
+                    <img src="./img/logo.svg" alt="" class="d-none d-md-flex">
                 </div>
                 <div class="col-auto d-flex flex-grow-1">
                     <input type="search" placeholder="Prova a cercare: Lezioni di Laravel" class="search-bar">
                 </div>
                 <div class="col-auto">
-                    <ul class="d-flex">
+                    <ul class="d-flex align-items-center">
                         <li>
-                            <a href=""><i class="fa-solid fa-bars px-2"></i></a>
+                            <a href="" class="d-none d-md-flex"><i class="fa-solid fa-bars px-2"></i></a>
                         </li>
                         <li>
-                            <a href=""><i class="fa-solid fa-question px-2"></i></a>
+                            <a href="" class="d-none d-md-flex"><i class="fa-solid fa-question px-2"></i></a>
                         </li>
                         <li>
-                            <a href=""><i class="fa-solid fa-ellipsis-vertical px-2"></i></a>
+                            <a href="" class="d-none d-md-flex"><i class="fa-solid fa-ellipsis-vertical px-2"></i></a>
                         </li>
                         <li>
                             <a href=""><i class="fa-solid fa-bell px-2"></i></a>
@@ -50,38 +51,74 @@
 
     <!-- SIDEBAR -->
                     
-        <aside class="aside d-flex flex-column">
+        <aside class="aside d-flex flex-column py-4 px-4">
             <div class="col-auto flex-grow-1">
                     <ul>
-                        <li class="c-white d-flex pt-5">
+                        <li class="c-white d-flex pt-2 justify-content-center">
                             <div class="box-icon">
                                 <i class="fa-solid fa-house"></i>
                             </div>
-                            <a href="" >Home</a>
+                            <a href="" class="d-none d-md-flex">Home</a>
                         </li>
-                        <li class="c-white d-flex pt-3">
+                        <li class="c-white d-flex pt-3 justify-content-center">
                             <div class="box-icon">
                                 <i class="fa-solid fa-chart-simple c-white"></i>
                             </div>
-                            <a href="">Stats</a>
+                            <a href="" class="d-none d-md-flex">Stats</a>
                         </li>
-                        <li class="c-white d-flex pt-3">
+                        <li class="c-white d-flex pt-3 justify-content-center">
                             <div class="box-icon">
                                 <i class="fa-solid fa-signal c-white"></i>
                             </div>
-                            <a href="">Signals</a>
+                            <a href="" class="d-none d-md-flex">Signals</a>
                         </li>
                     </ul>
             </div>
-            <div class="col-auto d-flex c-white align-items-center">
-                    <p><i class="fa-solid fa-gear ps-4 pe-2 pb-4"></i> Admin</p>
+            <div class="col-auto d-flex c-white align-items-center justify-content-center">
+                <div class="box-icon">
+                    <i class="fa-solid fa-gear pb-4"></i>
+                </div>
+                <p class="d-none d-md-flex"> Admin</p>
             </div >
         </aside>
 
     <!-- MAIN CONTENT -->
 
         <div class="main-content d-flex">
-       
+            <div class="container-fluid">
+                <div class="row">
+
+                    <!-- SEZIONE ADD NEW STUDENT -->
+
+                    <div class="col-12 d-flex add-student">
+                        <div class="col-6"> 
+                            <h3>Boolean</h3>
+                        </div>
+                        <div class="col-4"></div>
+                        <div class="col-2"></div>
+                    </div>
+
+                    <!-- SEZIONE CONTENUTO PRINCIPALE -->
+
+                    <div class="col-12">
+                        <div class="col-12">
+
+                        </div>
+                        <div class="col-12">
+
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="col-12">
+
+                        </div>
+                        <div class="col-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </main>
