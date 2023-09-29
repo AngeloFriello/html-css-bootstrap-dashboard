@@ -89,7 +89,9 @@ aside{
     --bs-offcanvas-width: 30vw;
 }
 
-
+.max-height{
+    height:  100%;
+}
 
 .c-white{
     color: white;
@@ -173,6 +175,12 @@ table{
 .card-body{
     border: 1px solid lightgray;
     
+}
+
+/* HOVER */
+
+.hover-b-white:hover{
+
 }
 
 
